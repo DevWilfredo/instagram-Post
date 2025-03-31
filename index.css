@@ -1,0 +1,57 @@
+body{
+    background-color: #000;
+}
+
+main{
+    font-family: "Roboto";
+    background-color: #fff;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-header-left-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.elipsis-icon, .html-icon{
+    padding: 20px;
+    font-size: xx-large;
+    padding-right: 10px;
+}
+
+.html-icon{
+    color: #E44D26;
+}
+
+.post-image{
+    max-width: 100%;
+}
+
+.post-footer{
+    padding: 8px;
+}
+
+.footer-icons-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons-section i{
+    font-size: x-large;
+}
+
+.fa-heart, .fa-bookmark {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.fa-solid.fa-heart {
+    color: red;
+}
